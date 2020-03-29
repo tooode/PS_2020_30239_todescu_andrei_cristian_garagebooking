@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "clienti")
-public class Client {
+public class User {
     @Id
     @Column(name = "Id")
     private int id;
@@ -22,18 +22,21 @@ public class Client {
     private int suma;
     @Column(name = "phoneNumber")
     private String phoneNumber;
+    @Column(name = "type")
+    private String type;
 
-    public Client(){
+    public User(){
 
     }
 
-    public Client(int id, String nume, List<Car> masini, boolean platitReparatie, int suma, String phoneNumber) {
+    public User(int id, String nume, List<Car> masini, boolean platitReparatie, int suma, String phoneNumber, String type) {
         this.id = id;
         this.nume = nume;
         this.masini = masini;
         this.platitReparatie = platitReparatie;
         this.suma = suma;
         this.phoneNumber = phoneNumber;
+        this.type = type;
     }
 
     public int getId() {
@@ -84,6 +87,14 @@ public class Client {
         this.phoneNumber = phoneNumber;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     @Override
     public String toString() {
         return "Client{" +
@@ -93,6 +104,7 @@ public class Client {
                 ", platitReparatie=" + platitReparatie +
                 ", suma=" + suma +
                 ", phoneNumber='" + phoneNumber + '\'' +
+                ", type='" + type + '\'' +
                 '}';
     }
 }

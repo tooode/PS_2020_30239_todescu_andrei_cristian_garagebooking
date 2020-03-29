@@ -6,10 +6,10 @@ import java.util.List;
 
 public interface AdminOP {
 
-    public List<Client> getAllClients();
-    public Client findClientByID(int id);
-    public void insertClient(Client client);
-    public void updateClient(Client updatedClient);
+    public List<User> getAllClients();
+    public User findClientByID(int id);
+    public void insertClient(User user);
+    public void updateClient(User updatedUser);
     public void deleteClient(int id);
 
     public List<Car> getAllCars();

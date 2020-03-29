@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="" />
+    <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/AdminOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/AdminOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/ClientOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/ClientOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bll/AdminBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bll/AdminBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bll/ClientBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bll/ClientBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZgP1UeDS11QlTopHR402mEsyvT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -73,10 +87,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585503842095">
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585514882122">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585503842095" />
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585514882122" />
+    <state x="1194" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585515033849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1194" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585515033849" />
     <state x="1170" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585501685550">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

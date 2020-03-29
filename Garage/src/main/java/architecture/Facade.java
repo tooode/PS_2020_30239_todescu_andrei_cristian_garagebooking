@@ -1,7 +1,7 @@
 package architecture;
 
 import model.Car;
-import model.Client;
+import model.User;
 import model.Mechanic;
 
 import java.util.List;
@@ -17,10 +17,10 @@ public class Facade {
     }
     /**
      * Inserare client in BD
-     * @param client
+     * @param user
      */
-    public void insertClient(Client client){
-        clientOp.insertClient(client);
+    public void insertClient(User user){
+        clientOp.insertClient(user);
     }
     /**
      * Inserare masina in BD
@@ -40,22 +40,22 @@ public class Facade {
      * Returneaza o lista cu clientii
      * @return o lista de clienti
      */
-    public List<Client> getAllClients(){
+    public List<User> getAllClients(){
         return adminOP.getAllClients();
     }
     /**
      * Find client by ID in BD
      * @param id
      */
-    public Client findClientByID(int id){
+    public User findClientByID(int id){
         return adminOP.findClientByID(id);
     }
     /**
      * Update client  in BD
-     * @param updatedClient
+     * @param updatedUser
      */
-    public void updateClient(Client updatedClient){
-        adminOP.updateClient(updatedClient);
+    public void updateClient(User updatedUser){
+        adminOP.updateClient(updatedUser);
     }
     /**
      * Delete client  din BD

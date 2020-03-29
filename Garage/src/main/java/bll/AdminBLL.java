@@ -3,45 +3,45 @@ package bll;
 import architecture.AdminOP;
 import dao.*;
 import model.Car;
-import model.Client;
+import model.User;
 import model.Mechanic;
 
 import java.util.List;
 
 public class AdminBLL implements AdminOP {
     private CarDAO carDAO;
-    private ClientDAO clientDAO;
+    private UserDAO userDAO;
     private MechanicDAO mechanicDAO;
 
     public AdminBLL() {
         this.carDAO = new CarDAO();
-        this.clientDAO = new ClientDAO();
+        this.userDAO = new UserDAO();
         this.mechanicDAO =new MechanicDAO();
     }
 
     @Override
-    public List<Client> getAllClients() {
-        return clientDAO.findAll();
+    public List<User> getAllClients() {
+        return userDAO.findAll();
     }
 
     @Override
-    public Client findClientByID(int id) {
-        return clientDAO.findById(id);
+    public User findClientByID(int id) {
+        return userDAO.findById(id);
     }
 
     @Override
-    public void insertClient(Client client) {
-        clientDAO.insert(client);
+    public void insertClient(User user) {
+        userDAO.insert(user);
     }
 
     @Override
-    public void updateClient(Client updatedClient) {
-        clientDAO.update(updatedClient);
+    public void updateClient(User updatedUser) {
+        userDAO.update(updatedUser);
     }
 
     @Override
     public void deleteClient(int id) {
-        clientDAO.delete(id);
+        userDAO.delete(id);
     }
 
     @Override

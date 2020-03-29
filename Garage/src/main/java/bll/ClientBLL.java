@@ -2,22 +2,22 @@ package bll;
 
 import architecture.ClientOp;
 import dao.CarDAO;
-import dao.ClientDAO;
+import dao.UserDAO;
 import model.Car;
-import model.Client;
+import model.User;
 
 public class ClientBLL implements ClientOp {
     private CarDAO carDAO;
-    private ClientDAO clientDAO;
+    private UserDAO userDAO;
 
     public ClientBLL() {
         this.carDAO = new CarDAO();
-        this.clientDAO = new ClientDAO();
+        this.userDAO = new UserDAO();
     }
 
     @Override
-    public void insertClient(Client client) {
-        clientDAO.insert(client);
+    public void insertClient(User user) {
+        userDAO.insert(user);
     }
 
     @Override

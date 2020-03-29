@@ -14,7 +14,7 @@ public class Car {
     @Column(name = "numarInmatriculare")
     private String numarInmatriculare;
     @Column(name = "proprietar")
-    private Client proprietar;
+    private User proprietar;
     @Column(name = "marcaModel")
     private String marcaModel;
     @Column(name = "anFabricatie")
@@ -26,7 +26,7 @@ public class Car {
 
     }
 
-    public Car(Client proprietar, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
+    public Car(User proprietar, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
         this.proprietar = proprietar;
         this.numarInmatriculare = numarInmatriculare;
         this.marcaModel = marcaModel;
@@ -34,11 +34,11 @@ public class Car {
         this.nrKilometrii = nrKilometrii;
     }
 
-    public Client getProprietar() {
+    public User getProprietar() {
         return proprietar;
     }
 
-    public void setProprietar(Client proprietar) {
+    public void setProprietar(User proprietar) {
         this.proprietar = proprietar;
     }
 
