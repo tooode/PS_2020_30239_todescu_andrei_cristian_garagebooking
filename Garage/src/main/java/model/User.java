@@ -14,8 +14,8 @@ public class User {
     private int id;
     @Column(name = "nume")
     private String nume;
-    @Column(name = "masina")
-    private List<Car> masini;
+    //@Column(name = "masina")
+    //private List<Car> masini;
     @Column(name = "platitReparatie")
     private boolean platitReparatie;
     @Column(name = "suma")
@@ -32,7 +32,7 @@ public class User {
     public User(int id, String nume, List<Car> masini, boolean platitReparatie, int suma, String phoneNumber, String type) {
         this.id = id;
         this.nume = nume;
-        this.masini = masini;
+        //this.masini = masini;
         this.platitReparatie = platitReparatie;
         this.suma = suma;
         this.phoneNumber = phoneNumber;
@@ -55,13 +55,13 @@ public class User {
         this.nume = nume;
     }
 
-    public List<Car> getMasini() {
+    /*public List<Car> getMasini() {
         return masini;
     }
 
     public void setMasini(List<Car> masini) {
         this.masini = masini;
-    }
+    }*/
 
     public boolean isPlatitReparatie() {
         return platitReparatie;
@@ -97,10 +97,9 @@ public class User {
 
     @Override
     public String toString() {
-        return "Client{" +
+        return "User{" +
                 "id=" + id +
                 ", nume='" + nume + '\'' +
-                ", masini=" + masini +
                 ", platitReparatie=" + platitReparatie +
                 ", suma=" + suma +
                 ", phoneNumber='" + phoneNumber + '\'' +

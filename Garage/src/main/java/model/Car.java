@@ -13,34 +13,42 @@ public class Car {
     private int id;
     @Column(name = "numarInmatriculare")
     private String numarInmatriculare;
-    @Column(name = "proprietar")
-    private User proprietar;
+    //@Column(name = "proprietar")
+    //private int idproprietar;
     @Column(name = "marcaModel")
     private String marcaModel;
     @Column(name = "anFabricatie")
     private int anFabricatie;
-    @Column(name = "nrKilomatrii")
-    private int nrKilometrii;
+    @Column(name = "nrKilometrii")
+     private int nrKilometrii;//oare incap pe int?:))
 
     public Car(){
 
     }
 
-    public Car(User proprietar, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
-        this.proprietar = proprietar;
+    public Car(int id, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
+        this.id = id;
         this.numarInmatriculare = numarInmatriculare;
         this.marcaModel = marcaModel;
         this.anFabricatie = anFabricatie;
         this.nrKilometrii = nrKilometrii;
     }
 
-    public User getProprietar() {
-        return proprietar;
+    public int getId() {
+        return id;
     }
 
-    public void setProprietar(User proprietar) {
-        this.proprietar = proprietar;
+    public void setId(int id) {
+        this.id = id;
     }
+
+    /*public int getIdproprietar() {
+        return idproprietar;
+    }
+
+    public void setIdproprietar(int idproprietar) {
+        this.idproprietar = idproprietar;
+    }*/
 
     public String getNumarInmatriculare() {
         return numarInmatriculare;
@@ -77,7 +85,7 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "proprietar=" + proprietar +
+                "id=" + id +
                 ", numarInmatriculare='" + numarInmatriculare + '\'' +
                 ", marcaModel='" + marcaModel + '\'' +
                 ", anFabricatie=" + anFabricatie +

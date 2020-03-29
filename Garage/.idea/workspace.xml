@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/AdminOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/AdminOP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/ClientOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/ClientOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bll/AdminBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bll/AdminBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bll/ClientBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bll/ClientBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mechanic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +80,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585514882122">
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585518415389">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585514882122" />
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585518415389" />
     <state x="1194" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585515033849">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -103,22 +96,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585498408828" />
-    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1585513375383">
+    <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1585518835410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585513375383" />
-    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1585513375383">
+    <state width="914" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585518835410" />
+    <state width="914" height="282" key="GridCell.Tab.0.center" timestamp="1585518835410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585513375383" />
-    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1585513375383">
+    <state width="914" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585518835410" />
+    <state width="914" height="282" key="GridCell.Tab.0.left" timestamp="1585518835410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585513375383" />
-    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1585513375383">
+    <state width="914" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585518835410" />
+    <state width="914" height="282" key="GridCell.Tab.0.right" timestamp="1585518835410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585513375383" />
+    <state width="914" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585518835410" />
     <state x="0" y="103" key="SettingsEditor" timestamp="1585492988443">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

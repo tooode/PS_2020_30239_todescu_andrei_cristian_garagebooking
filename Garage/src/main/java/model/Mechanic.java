@@ -15,7 +15,7 @@ public class Mechanic {
     @Column(name = "nume")
     private String nume;
     @Column(name = "listaMasini")
-    private Set<Car> listaMasini;
+    //private Set<Car> listaMasini;
 
     public int getId() {
         return id;
@@ -33,20 +33,19 @@ public class Mechanic {
         this.nume = nume;
     }
 
-    public Set<Car> getListaMasini() {
+    /*public Set<Car> getListaMasini() {
         return listaMasini;
     }
 
     public void setListaMasini(Set<Car> listaMasini) {
         this.listaMasini = listaMasini;
-    }
+    }*/
 
     @Override
     public String toString() {
         return "Mechanic{" +
                 "id=" + id +
                 ", nume='" + nume + '\'' +
-                ", listaMasini=" + listaMasini +
                 '}';
     }
 }
