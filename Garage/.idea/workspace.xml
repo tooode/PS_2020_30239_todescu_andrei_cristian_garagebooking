@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Car.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JavaTest">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="service.MainApplication" />
       <module name="Garage" />
@@ -57,8 +59,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Garage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaTest" />
         <item itemvalue="Application.MainApplication" />
       </list>
     </recent_temporary>
@@ -77,6 +89,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="557" y="192" key="#JavaTest" timestamp="1585522873265">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="557" y="192" key="#JavaTest/0.0.1920.1050@0.0.1920.1050" timestamp="1585522873265" />
     <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585518415389">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -97,22 +113,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585521844442" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585521848947">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585522965629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848947" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585521848947">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585522965629" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585522965629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848947" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585521848947">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585522965629" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585522965629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848947" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585521848947">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585522965629" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585522965629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848947" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585522965629" />
     <state x="0" y="103" key="SettingsEditor" timestamp="1585492988443">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
