@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.List;
 
 @Entity
 @Table(name = "clienti")
@@ -14,22 +15,25 @@ public class Client {
     @Column(name = "nume")
     private String nume;
     @Column(name = "masina")
-    private Car masina;
+    private List<Car> masini;
     @Column(name = "platitReparatie")
     private boolean platitReparatie;
-    @Column(name = "Suma")
+    @Column(name = "suma")
     private int suma;
+    @Column(name = "phoneNumber")
+    private String phoneNumber;
 
     public Client(){
 
     }
 
-    public Client(int id, String nume, Car masina, boolean platitReparatie, int suma) {
+    public Client(int id, String nume, List<Car> masini, boolean platitReparatie, int suma, String phoneNumber) {
         this.id = id;
         this.nume = nume;
-        this.masina = masina;
+        this.masini = masini;
         this.platitReparatie = platitReparatie;
         this.suma = suma;
+        this.phoneNumber = phoneNumber;
     }
 
     public int getId() {
@@ -48,12 +52,12 @@ public class Client {
         this.nume = nume;
     }
 
-    public Car getMasina() {
-        return masina;
+    public List<Car> getMasini() {
+        return masini;
     }
 
-    public void setMasina(Car masina) {
-        this.masina = masina;
+    public void setMasini(List<Car> masini) {
+        this.masini = masini;
     }
 
     public boolean isPlatitReparatie() {
@@ -72,14 +76,24 @@ public class Client {
         this.suma = suma;
     }
 
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     @Override
     public String toString() {
         return "Client{" +
                 "id=" + id +
                 ", nume='" + nume + '\'' +
-                ", masina=" + masina +
+                ", masini=" + masini +
                 ", platitReparatie=" + platitReparatie +
                 ", suma=" + suma +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
 }
+

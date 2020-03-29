@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Table(name = "masini")
 public class Car {
     @Id
+    @Column(name = "id")
+    private int id;
     @Column(name = "numarInmatriculare")
     private String numarInmatriculare;
     @Column(name = "proprietar")
@@ -19,6 +21,10 @@ public class Car {
     private int anFabricatie;
     @Column(name = "nrKilomatrii")
     private int nrKilometrii;
+
+    public Car(){
+
+    }
 
     public Car(Client proprietar, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
         this.proprietar = proprietar;
