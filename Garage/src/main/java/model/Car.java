@@ -13,8 +13,8 @@ public class Car {
     private int id;
     @Column(name = "numarInmatriculare")
     private String numarInmatriculare;
-    //@Column(name = "proprietar")
-    //private int idproprietar;
+    @Column(name = "proprietar")
+    private int idproprietar;
     @Column(name = "marcaModel")
     private String marcaModel;
     @Column(name = "anFabricatie")
@@ -26,9 +26,10 @@ public class Car {
 
     }
 
-    public Car(int id, String numarInmatriculare, String marcaModel, int anFabricatie, int nrKilometrii) {
+    public Car(int id, String numarInmatriculare, int idproprietar, String marcaModel, int anFabricatie, int nrKilometrii) {
         this.id = id;
         this.numarInmatriculare = numarInmatriculare;
+        this.idproprietar = idproprietar;
         this.marcaModel = marcaModel;
         this.anFabricatie = anFabricatie;
         this.nrKilometrii = nrKilometrii;
@@ -42,13 +43,13 @@ public class Car {
         this.id = id;
     }
 
-    /*public int getIdproprietar() {
+    public int getIdproprietar() {
         return idproprietar;
     }
 
     public void setIdproprietar(int idproprietar) {
         this.idproprietar = idproprietar;
-    }*/
+    }
 
     public String getNumarInmatriculare() {
         return numarInmatriculare;
@@ -87,6 +88,7 @@ public class Car {
         return "Car{" +
                 "id=" + id +
                 ", numarInmatriculare='" + numarInmatriculare + '\'' +
+                ", idproprietar=" + idproprietar +
                 ", marcaModel='" + marcaModel + '\'' +
                 ", anFabricatie=" + anFabricatie +
                 ", nrKilometrii=" + nrKilometrii +
