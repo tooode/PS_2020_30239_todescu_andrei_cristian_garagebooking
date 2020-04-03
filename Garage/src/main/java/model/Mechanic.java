@@ -15,6 +15,11 @@ public class Mechanic {
     @Column(name = "nume")
     private String nume;
 
+    public Mechanic(int id, String nume) {
+        this.id = id;
+        this.nume = nume;
+    }
+
     public int getId() {
         return id;
     }

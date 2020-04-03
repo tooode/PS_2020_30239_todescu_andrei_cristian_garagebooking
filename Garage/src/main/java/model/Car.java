@@ -92,6 +92,6 @@ public class Car {
                 ", marcaModel='" + marcaModel + '\'' +
                 ", anFabricatie=" + anFabricatie +
                 ", nrKilometrii=" + nrKilometrii +
-                '}';
+                '}'+"\n";
     }
 }
