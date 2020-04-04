@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Documentatie.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentatie.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Garage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,11 +57,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pol/library-management-master/library" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.MainApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -70,6 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Garage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="service.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
@@ -87,8 +112,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585257549786</updated>
+      <workItem from="1586039569404" duration="375000" />
+      <workItem from="1586039991952" duration="129000" />
+      <workItem from="1586040159089" duration="1314000" />
+      <workItem from="1586041519704" duration="308000" />
+      <workItem from="1586041866508" duration="237000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -98,6 +131,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="557" y="192" key="#JavaTest/0.0.1920.1050@0.0.1920.1050" timestamp="1585522873265" />
+    <state x="552" y="183" key="#Notifications" timestamp="1586040505479">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1586040505479" />
+    <state x="1189" y="361" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1586039319730">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1189" y="361" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586039319730" />
     <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1586034567727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -114,30 +155,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="707" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848788" />
-    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1586033871065">
+    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1586039318626">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586033871065" />
-    <state width="984" height="281" key="GridCell.Tab.0.bottom" timestamp="1586035108346">
+    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586039318626" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1586039782578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="984" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
-    <state width="984" height="281" key="GridCell.Tab.0.center" timestamp="1586035108346">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586039782578" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1586039782578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="984" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
-    <state width="984" height="281" key="GridCell.Tab.0.left" timestamp="1586035108346">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586039782578" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1586039782578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="984" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
-    <state width="984" height="281" key="GridCell.Tab.0.right" timestamp="1586035108346">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586039782578" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1586039782578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="984" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
-    <state x="0" y="103" key="SettingsEditor" timestamp="1585492988443">
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586039782578" />
+    <state x="789" y="41" key="SettingsEditor" timestamp="1586041154432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="0" y="103" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585492988443" />
+    <state x="789" y="41" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586041154432" />
     <state x="954" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1585486712779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
