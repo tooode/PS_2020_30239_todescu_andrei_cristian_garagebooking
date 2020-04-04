@@ -1,26 +1,13 @@
 package model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "masini")
 public class Car {
-    @Id
-    @Column(name = "id")
+
     private int id;
-    @Column(name = "numarInmatriculare")
     private String numarInmatriculare;
-    @Column(name = "proprietar")
     private int idproprietar;
-    @Column(name = "marcaModel")
     private String marcaModel;
-    @Column(name = "anFabricatie")
     private int anFabricatie;
-    @Column(name = "nrKilometrii")
-     private int nrKilometrii;//oare incap pe int?:))
+    private int nrKilometrii;//oare incap pe int?:))
 
     public Car(){
 

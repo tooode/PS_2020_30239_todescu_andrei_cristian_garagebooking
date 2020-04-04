@@ -1,25 +1,19 @@
 package model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "clienti")
+
 public class User {
-    @Id
-    @Column(name = "Id")
+
     private int id;
-    @Column(name = "nume")
+
     private String nume;
-    @Column(name = "platitReparatie")
+
     private boolean platitReparatie;
-    @Column(name = "suma")
+
     private int suma;
-    @Column(name = "phoneNumber")
+
     private String phoneNumber;
-    @Column(name = "type")
+
     private String type;
 
     public User(){

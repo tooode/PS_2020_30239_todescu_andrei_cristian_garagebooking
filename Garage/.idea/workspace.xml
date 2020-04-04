@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/GarageObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/Observator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connection/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connection/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mechanic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Mechanic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Mechanic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/MainApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="557" y="192" key="#JavaTest/0.0.1920.1050@0.0.1920.1050" timestamp="1585522873265" />
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1585927020231">
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1586034567727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585927020231" />
+    <state x="1245" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1586034567727" />
     <state x="1194" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585515033849">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -118,26 +124,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="707" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848788" />
-    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1585925739638">
+    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1586033871065">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585925739638" />
-    <state width="916" height="281" key="GridCell.Tab.0.bottom" timestamp="1585927369580">
+    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586033871065" />
+    <state width="984" height="281" key="GridCell.Tab.0.bottom" timestamp="1586035108346">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585927369580" />
-    <state width="916" height="281" key="GridCell.Tab.0.center" timestamp="1585927369580">
+    <state width="984" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
+    <state width="984" height="281" key="GridCell.Tab.0.center" timestamp="1586035108346">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585927369580" />
-    <state width="916" height="281" key="GridCell.Tab.0.left" timestamp="1585927369580">
+    <state width="984" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
+    <state width="984" height="281" key="GridCell.Tab.0.left" timestamp="1586035108346">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585927369580" />
-    <state width="916" height="281" key="GridCell.Tab.0.right" timestamp="1585927369580">
+    <state width="984" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
+    <state width="984" height="281" key="GridCell.Tab.0.right" timestamp="1586035108346">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585927369580" />
+    <state width="984" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586035108346" />
     <state x="0" y="103" key="SettingsEditor" timestamp="1585492988443">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

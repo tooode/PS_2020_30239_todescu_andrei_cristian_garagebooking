@@ -1,23 +1,33 @@
 package model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import java.util.Set;
+import architecture.Observator;
 
-@Entity
-@Table(name = "mecanici")
-public class Mechanic {
-    @Id
-    @Column(name = "id")
+public class Mechanic implements Observator {
+
     private int id;
-    @Column(name = "nume")
     private String nume;
+    private String message;
+    public Mechanic(){
+
+    }
 
     public Mechanic(int id, String nume) {
         this.id = id;
         this.nume = nume;
+    }
+
+    @Override
+    public void update(String msg) {
+        this.setMessage(msg);
+        System.out.println(this.getMessage());
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public int getId() {
