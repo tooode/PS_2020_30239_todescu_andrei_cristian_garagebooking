@@ -13,5 +13,7 @@ Clientul are drepturi limitate la baza de date, doua insert-uri si un update.
 ## Implementare
 
 In faza initiala am adugat doar 3 tabele urmand ca ulterior sa adaug inca cateava tabele pentru rezolvarea legaturilor intre tabele: Car, Mechanic, User.
-Aplicatia a fost organizata inn pachete acest fapt ii confera lizibilitate.
+Aplicatia a fost organizata in pachete acest fapt ii confera lizibilitate.
+S-a utilizat design pattern-ul Observer pentru notificarea mecanicilor la intrarea unei noi masini in service.
+Am folosit Mockito pentru testarea aplicatiei.
 
