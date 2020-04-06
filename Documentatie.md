@@ -20,6 +20,6 @@ Am folosit Mockito pentru testarea aplicatiei.
 ## Diagrame
 
 ##### Diagrama bazei de date
-![image Info](file:///D:\Facultate\Laboratoare\An3Semestrul2\ProiectareSoftware\PS_2020_30239_todescu_andrei_cristian_garagebooking/DB.png "Image Description")
+![image](DB.png)
 ##### Diagrama de clase
-![image Info](file:///D:\Facultate\Laboratoare\An3Semestrul2\ProiectareSoftware\PS_2020_30239_todescu_andrei_cristian_garagebooking/UML.png "Image Description")
+![image](UML.png)

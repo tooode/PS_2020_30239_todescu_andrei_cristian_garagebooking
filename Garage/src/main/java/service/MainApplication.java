@@ -15,13 +15,5 @@ import java.util.List;
 public class MainApplication {
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class, args);
-        /*AdminBLL adminBLL = new AdminBLL();
-		ClientBLL clientBLL = new ClientBLL();
-
-		Facade facade = new Facade(adminBLL, clientBLL);
-		List<Car> cars = new ArrayList(facade.getAllCars());
-		for(int i = 0; i < cars.size(); i++){
-		    System.out.print(cars.get(i).toString());
-        }*/
     }
 }
