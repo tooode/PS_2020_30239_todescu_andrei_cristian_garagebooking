@@ -1,5 +1,6 @@
 import architecture.*;
 import model.Mechanic;
+import model.User;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -45,5 +46,19 @@ public class JavaTest {
         obs.setMsg("A intart o masina in service!");
 
         assertEquals(mec.getMessage(), "A intart o masina in service!");
+    }
+
+    @Test
+    public void testFactoryAdmin(){
+        Factory fct = new Factory();
+        User user = fct.createAccount(999,"Admin",true,0,"07ADMIN","Admin");
+        assertEquals("Admin", user.getType());
+    }
+
+    @Test
+    public void testFactoryClient(){
+        Factory fct = new Factory();
+        User user = fct.createAccount(100,"Client",true,0,"07CLIENT","Client");
+        assertEquals("Client", user.getType());
     }
 }

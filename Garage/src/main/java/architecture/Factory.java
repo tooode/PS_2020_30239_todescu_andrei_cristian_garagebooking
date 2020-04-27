@@ -3,6 +3,15 @@ package architecture;
 import model.User;
 
 public class Factory {
+    /**
+     * Create User Admin or Client
+     * @param id
+     * @param nume
+     * @param platitReparatie
+     * @param suma
+     * @param phoneNumber
+     * @param accountType
+     */
     public User createAccount(int id, String nume, boolean platitReparatie, int suma, String phoneNumber, String accountType){
         User account = null;
         if(accountType != null){

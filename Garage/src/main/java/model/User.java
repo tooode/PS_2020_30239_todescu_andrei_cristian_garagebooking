@@ -29,6 +29,14 @@ public class User {
         this.type = type;
     }
 
+    public User(int id, String nume, boolean platitReparatie, int suma, String phoneNumber) {
+        this.id = id;
+        this.nume = nume;
+        this.platitReparatie = platitReparatie;
+        this.suma = suma;
+        this.phoneNumber = phoneNumber;
+    }
+
     public int getId() {
         return id;
     }
