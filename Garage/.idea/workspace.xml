@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="008456b5-633c-4956-b80c-05ee49c30063" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connection/ConnectionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +58,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/library-management-master/library" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/mysql-connector-java-5.1.49" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -127,7 +129,7 @@
       <workItem from="1587926168246" duration="5124000" />
       <workItem from="1587982462426" duration="2649000" />
       <workItem from="1590328553688" duration="310000" />
-      <workItem from="1590336191423" duration="818000" />
+      <workItem from="1590336191423" duration="1845000" />
     </task>
     <servers />
   </component>
@@ -166,30 +168,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="707" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1585521848788" />
-    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1587982986360">
+    <state x="1063" y="182" key="DetectedRootsChooserDialog" timestamp="1590341513505">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587982986360" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1590337172659">
+    <state x="1063" y="182" key="DetectedRootsChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590341513505" />
+    <state x="1220" y="283" key="FileChooserDialogImpl" timestamp="1590341511113">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590337172659" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1590337172659">
+    <state x="1220" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590341511113" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1590341889255">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590337172659" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1590337172659">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590341889255" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1590341889255">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590337172659" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1590337172659">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590341889255" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1590341889255">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590337172659" />
-    <state x="789" y="41" key="SettingsEditor" timestamp="1586041154432">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590341889255" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1590341889255">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="789" y="41" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586041154432" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590341889255" />
+    <state x="789" y="41" key="SettingsEditor" timestamp="1590341523960">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="789" y="41" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590341523960" />
     <state x="954" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1585486712779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
