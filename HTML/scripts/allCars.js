@@ -1,29 +1,26 @@
-  
 $(document).ready(function()    {
-    $("#all_books").click(function(e)    {
+    $("#all_cars").click(function(e)    {
         $.ajax({
             type: 'GET',
-            url: 'http://localhost:8080/allBooks',
+            url: 'http://localhost:8080/allCars',
             dataType: 'json',
             success: function(data){
-                var $tr = $('<tr>').append(
-                    $('<td>').text("Cod carte"),
-                    $('<td>').text("Nume"),
-                    $('<td>').text("Autor"),
-                    $('<td>').text("Gen literar"),
-                ).appendTo('#records_table');
-
-                $.each(data, function(i, item) {
-                    var $tr = $('<tr>').append(
-                        $('<td>').text(item.id),
-                        $('<td>').text(item.name),
-                        $('<td>').text(item.author),
-                        $('<td>').text(item.genre),
-                    ).appendTo('#records_table');
+                console.log(data);
+                var str="<thead><tr><th>Index</th><th>Marca&Model</th><th>Numar Inmatriculare</th><th>An fabricatie</th><th>Nr kilometrii</th></tr></thead>";
+                $.each(data, function (i, car) {
+                    //str = str +car.id+' '+ car.numarInmatriculare+' ' + car.idproprietar+' ' + car.marcaModel+' ' +car.anFabricatie+' '+car.nrKilometrii ", ";
+                    str = str + "<tr>" +
+                    "<td>" + (i + 1) + ".</td>" +
+                    "<td>" + car.marcaModel + "</th>" +
+                    "<td>" + car.numarInmatriculare + "</th>" +
+                    "<td>" + car.anFabricatie + "</th>" +
+                    "<td>" + car.nrKilometrii + "</th>" +
+                    "</tr>";
                 })
+                $("#car").html(str); 
             },
             error: function(){
-                console.log("Error");
+                $("#all_cars").html("error")
             }
 
         });

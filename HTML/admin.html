@@ -5,8 +5,6 @@
     <title>Garage Booking(Admin)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="Provision Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     <script>
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -25,22 +23,17 @@
           border: 1px solid black;
         }
     </style>
+    <script src="scripts/allCars.js"></script>
+    <script src="scripts/allUsers.js"></script>
 </head>
 
 <body>
-
-    <h2 id="welcome"></h2>
-    <script>
-        var user_id = localStorage.getItem('user_id');
-        var user_name = localStorage.getItem('user_name');
-        document.getElementById('welcome').innerHTML = "Welcome, " + user_name.toString();
-    </script>
     
     
     <button type="button" class="btn btn-default" id="all_cars">View all cars</button>
-
-
-    <table id="records_table"></table> <br>
+    <table id="car"></table>
+    <button type="button" class="btn btn-default" id="all_users">View all users</button>
+    <table id="mechanic"></table>
 
 </body>
 </html>
